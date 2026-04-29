@@ -1,0 +1,106 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="screen-container">
+        <header>
+            <div class="typing-wrapper">
+                <h1 class="main-name">Hi, I'm Asfa Amalia</h1>
+            </div>
+            <p class="subtitle">a Data Science Student</p>
+        </header>
+
+        <main class="grid-layout">
+            <section class="card profile">
+                <h2 class="label">Profil</h2>
+                <div class="profile-content">
+                    <img src="{% static 'image/asfa.jpeg' %}" alt="Asfa Amalia" class="profile-img">
+                    <p>Saya mahasiswa Sains Data di Universitas Islam Negri Salatiga
+                        yang sedang menempuh pendidikan pada pengolahan data dan pangembangan aplikasi web.
+                        Saya akan berusaha untuk terus mendalami Python dan teknologi data modern guna menciptakan solusi digital yang berbasis data.
+                    </p> 
+                <div class="contact-info">
+                    <p>📧 asfaamalia093@gmail.com</p>
+                    <p>📍 Bejaten, Kec. Pabelan, Kab. Semarang</p>
+                    <p>📱 +62 882 0063 70700</p>
+                </div>
+            </section>
+
+            <section class="card education glass-card">
+                <h2 class="label">Pendidikan</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot current"></div>
+                        <div class="timeline-content">
+                            <span class="year-badge">2024 — Sekarang</span>
+                            <h3>UIN Salatiga</h3>
+                            <p class="school-name">S1 Sains Data</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year-badge">2022 — 2024</span>
+                            <h3>MA banat Tajul Ulum</h3>
+                            <p class="school-name">IPA</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year-badge">2018 — 2021</span>
+                            <h3>MTs Banat Tajul Ulum</h3>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year-badge">2013 — 2018</span>
+                            <h3>Mi Bustanul Muta'alimin</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card experience-lang glass-card">
+                <div class="experience-container">
+                    
+                    <div class="experience-column">
+                    <h2 class="label">Pengalaman</h2>
+                    <div class="tags-container">
+                        <span class="tag-experience tech"><i class="fab fa-python"></i>Secretary of Data Science Student Association</span>
+                        <span class="tag-experience tech"><i class="fab fa-html5"></i>Member of Interests and Talents Division of Data Science Student Association </span>
+                    </div>
+                </div>
+
+                <div class="lang-column">
+                    <h2 class="label">Languages</h2>
+                    <div class="lang-item">
+                        <span class="lang-name">Bahasa Indonesia</span>
+                        <span class="lang-level">Native</span>
+                        <div class="bar">
+                            <div class="fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">English</span>
+                        <span class="lang-level">Intermediate</span>
+                        <div class="bar">
+                            <div class="fill" style="width: 20%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
